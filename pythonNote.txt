@@ -1,0 +1,72 @@
+
+strings - str()
+length - len()
+
+## List functions
+    list_variable = [ , , , ]
+    *.extend() - add two lists
+    *.append() - add extra element
+    *.insert(pos, 'value') - at any index
+    *.remove() - remove specific name
+    *.clear() - remove all
+    *.pop() - last element
+    *.index() - index of a specific name
+    *.count() - number of times of name
+    *.sort() - no parameters
+    *.reverse() - 
+    *.copy() - assign to other list using =
+
+## Tuples
+    List of tuples
+
+## Function
+    def - 
+    return - 
+
+## Conditional & Unconditional st
+    or, and, not(~)
+
+## Dictionaries
+    Like enum
+    Access key - [] or .get()
+
+## for loop
+    for (variable) in (array or strings or range) :
+    
+Exponent -- (** = ^)
+
+## 2d lists
+    matrixVar = [[ , ] , [ , ] , [ , ]]
+    Access using for loop -> 
+        for row in matrixVar:
+            for col in row:
+
+## try / except block
+    More than 1 except possible
+    Specific exceptions ->
+        Eg: except ZeroDivisionError
+            except ValueError
+            except .. as err: { print(err) }
+
+## Reading files
+    **  variable = open("fileName with extension", "(r,w,a,r+)")
+    variable = open("file", "r")
+    print(variable.read())          //
+    print(variable.readline())      // print individual line
+    print(variable.readlines())     // print all lines as lists
+    variable.close()
+
+## Writing (new or appending) files
+    variable = open("file", "a")
+    variable.write("")
+
+## Modules & pip
+
+    Built-in or userDefined:
+        import new.py       -- importing other .py Modules/files
+        new.*               -- accessing members of new.py file
+        @ GOOGLE MODULES IN PYTHON DOCS (MANY TYPES)
+
+    Other external modules:
+        pip                 -- install using pip
+        
